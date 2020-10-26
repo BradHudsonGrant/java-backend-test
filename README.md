@@ -25,7 +25,7 @@ java -jar .\target\java-backend-test-0.0.1-SNAPSHOT.jar
 
 
 Using the project:
-To hit the endpoint use a post request to "localhost:8080/oil-spill"
+I personally used Postman to hit the server but to hit the endpoint use a POST request to "localhost:8080/oil-spill"
 
 Example JSON Request Body
 {
