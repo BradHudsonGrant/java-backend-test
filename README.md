@@ -7,13 +7,19 @@ Spring Boot Project that tackles the task below:
 
 Installation:
 
+Running the Code with Maven in Exploded Form:
 To ensure that the build target is removed before a new build, add the clean target.
 In the terminal or cmd run the follow lines
 "mvn clean install"
-
 Once built run the application. 
 Enter the following
 "mvn spring-boot:run"
+
+OR
+
+To run the Code as a Stand-Alone Packaged Application
+mvn clean package spring-boot:repackage
+java -jar .\target\java-backend-test-0.0.1-SNAPSHOT.jar
 
 *Be sure to have nothing running on port 8080
 
